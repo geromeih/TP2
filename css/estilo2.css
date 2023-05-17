@@ -4,7 +4,7 @@
     padding: 0;
     margin:0 ;
 }
-   
+
 body{
     background-color: rgb(59, 59, 63);
     color: white;
@@ -14,7 +14,6 @@ body{
 h1{
     
     font-size: 4rem;
-    font-weight: 550;
 }
 span{
     color: rgb(250, 205, 92);
@@ -26,22 +25,16 @@ p{
 a{
     text-decoration: none;
     color: white;
-    
+    margin: 2rem;
 }
-
 header{
     display: flex;
     justify-content:space-between;
-    padding: 0.5rem 5rem 0.5rem 8rem;
+    padding: 0.5rem 0rem 0.5rem 8rem;
     align-items: center;
     /*position: fixed;    */
     width: 100%;
     
-}
-.menu{
-    margin: 20px;
-    font-size: 1.3rem;
-    font-weight: lighter;
 }
 .hero{
     padding: 4rem 2rem 4rem 13rem;
@@ -52,8 +45,8 @@ header{
     background: linear-gradient(rgba(59, 59, 63,0.5), rgba(0, 0, 0, 0.5)), url("../img/ivanByN.png");
     background-repeat: no-repeat;
     background-position:bottom right;
-    min-width: 620px;
-    height: 85vh;
+    min-width: 650px;
+    height: 80vh;
 }
 .heroDatos{
     width: 49%;
@@ -86,34 +79,23 @@ header{
     border-radius: 0.25rem;
 }
 .about{
-    padding: 4rem 8rem;
+    padding: 2rem 4rem;
 }
 .divAbout{
     display: flex;
-    margin: ;
 }
 .parrafoAbout{
-    font-size: 1.5rem;
+    font-size: 0.7rem;
 }
 .lineaAbout{
-    width: 10rem;    
+    width: 3rem;    
     border-top: 2px solid  rgb(250, 205, 92);           
-    margin: 1rem 1rem 1rem 0rem;    
+    margin: 0.2rem 1rem 1rem 0rem;    
 }
 .mySkills{
-    padding: 0 8rem;
-    text-align: center;
+    padding: 0 4rem;
 }
-.tarjetaContenedora{
-    display: flex;
-}
-.tarjeta{
-    width: 260px;
-    height: 260px;
-    margin: 25px;
-    
-    background-color: rgb(68, 66, 66);
-}
+
 .testimonial{
 
 }
