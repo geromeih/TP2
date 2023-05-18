@@ -117,16 +117,35 @@ header{
 }
 .tarjetaContenedora{
     display: flex;
+    justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 .tarjeta{
     width: 260px;
     height: 260px;
     margin: 25px;
-    
+    border-radius: 1.2rem;
     background-color: rgb(68, 66, 66);
+    
+}
+.tarjeta:hover{
+    background-color: rgb(250, 205, 92);
+}
+.iconoTarjeta{
+    width: 5rem;
+    margin-top: 3rem;
+}
+.nombreIcono{
+    margin-top: 2.5rem;
+}
+.portfolio{
+    margin-top: 2rem;
+    padding: 2 8rem;
+    text-align: center;
 }
 .testimonial{
-
+    padding: 0 8rem;
 }
 .foto2{
     width: 200px;
