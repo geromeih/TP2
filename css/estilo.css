@@ -57,6 +57,9 @@ header{
     padding: 10px;
     font-size: 1.5rem;
 }
+.hamburguesa{
+    display: none;
+}
 .hero{
     padding: 4rem 2rem 4rem 13rem;
     display: flex;
@@ -243,9 +246,11 @@ header{
 }
 .testimonial{
     padding: 2rem 0 0 8rem;
+    margin: 4rem 0 4rem 0;
 }
 .contenedorTestimonio{
-    height: 80vh;
+    /*height: 80vh;*/
+    
     display: flex;
     justify-content: space-between;   
     background-repeat: no-repeat;
@@ -316,9 +321,10 @@ header{
     padding: 0 0 4rem 8rem;
     text-align: center; 
     background-color: rgb(68, 66, 66)
-    
-    
 }
+i{
+    margin: 4px;
+}    
 .tituloContacteme{
     position: relative;
     top: -36px;
@@ -348,5 +354,27 @@ footer{
 @media (max-width: 900px) {
     .hero{
         background: linear-gradient(rgba(59, 59, 63,0.5), rgba(0, 0, 0, 0.5));
+    }
+    .contenedorTestimonio{
+        flex-direction: column;
+    }
+    .testimonioIzq{
+        width: 100%;
+    }
+
+    .hamburguesa{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .hero{       
+        min-width: 0px;        
+    }
+    .heroDatos{
+        width: 69%;
+    }
+    .heroEspacio{
+        width: 30%;
     }
   }
