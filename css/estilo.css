@@ -231,10 +231,10 @@ header{
 }
 .lineaExperiencia{
     width: 165px;
-    height: 50%;
-    max-height: max-content;
-    border-right: 2px solid  white;           
+    height: 55%;
     
+    border-right: 2px solid  white;           
+}
 .descripcionExp{
     margin: 10px 10px;
 }
@@ -242,8 +242,111 @@ header{
     font-size:0.8rem ;
 }
 .testimonial{
-    padding: 0 8rem;
+    padding: 2rem 0 0 8rem;
+}
+.contenedorTestimonio{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;   
+    background-repeat: no-repeat;
+    background-position:center right;
+    align-items: center;
+}
+.testimonioIzq{
+    width: 60%;
+}
+.divTestimonio{
+    display: flex;
+    width: 96%;
+}
+.lineaTestimonio{
+    width: 15rem;    
+    border-top: 2px solid  rgb(250, 205, 92);           
+    margin: 1rem 1rem 1rem 0rem;
+    
+}       
+
+.spanTestimonio{
+    font-size: 1.5rem;
+}
+.contenedorFirma{
+    display: flex;
+}
+.lineaTestimonioFirma{
+    width: 1rem;    
+    border-top: 2px solid  rgb(250, 205, 92);           
+    margin: 0.5rem 1rem 1rem 0rem;
+}
+.firma{
+    font-size: .9rem;
+}
+
+
+.testimonioDer{
+    position: relative;   
+	
+	justify-content: flex-end;
+	align-items: flex-end;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	
+
 }
 .foto2{
-    width: 200px;
+    margin-left: 35px;
+    position: absolute;
+    z-index: 1;
+    border:2px red;
+    
+    
 }
+.recuadroTestimonial{    
+    margin-top: 88px;
+    background-color: rgb(250, 205, 92) ;
+    width: 390px;
+    height: 270px;  
+    border-radius: 40px 0 0 40px;   
+    position: static;
+    z-index: 2;
+  
+}
+.contacteme{
+    margin-top: 1rem;
+    padding: 0 0 4rem 8rem;
+    text-align: center; 
+    background-color: rgb(68, 66, 66)
+    
+    
+}
+.tituloContacteme{
+    position: relative;
+    top: -36px;
+}
+.contenedorContacto{
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.contacto{
+width: 260px;
+height: 40px;
+margin: 5px;
+padding-top: 5px;
+border-radius: 0.4rem;
+background-color:   rgb(59, 59, 63);
+align-items: center;
+}
+footer{
+    margin-top: 2rem;
+    padding: 0 0 2rem 8rem;
+    text-align: center;
+    color:  rgb(250, 205, 92) ;
+}
+
+@media (max-width: 900px) {
+    .hero{
+        background: linear-gradient(rgba(59, 59, 63,0.5), rgba(0, 0, 0, 0.5));
+    }
+  }
