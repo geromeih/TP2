@@ -68,7 +68,7 @@ header{
     justify-content: space-between;
     background: linear-gradient(rgba(59, 59, 63,0.5), rgba(0, 0, 0, 0.5)), url("../img/ivanByN.png");
     background-repeat: no-repeat;
-    background-position:top right;
+    background-position:bottom right;
     
     min-width: 620px;
     height: 85vh;
@@ -91,7 +91,7 @@ header{
 .lineaHeroSociales{
     height: 7rem;    
     border-right: 2px solid  rgb(250, 205, 92);           
-    margin: 0.2rem 1rem 1rem 0rem; 
+    margin: 0.2rem 1rem 1rem 1rem; 
     
 }
 .heroBtn{    
